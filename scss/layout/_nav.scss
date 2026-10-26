@@ -13,11 +13,12 @@
             background-color: v.$color-verde-claro;
         }
 
-        &:focus {
-            outline: 2px solid v.$color-principal;
-            outline-offset: 3px;
-            box-shadow: none;
-        }
+        &:focus-visible {
+        background-color: v.$color-principal;
+        color: v.$color-fondo;
+        outline: 2px solid v.$color-verde-oscuro;
+        outline-offset: 2px;
+    }
 
         &:active {
             background-color: v.$color-secundario;
@@ -41,12 +42,12 @@
             color: v.$color-fondo;
         }
 
-        &:focus {
-            background-color: v.$color-principal;
-            color: v.$color-fondo;
-            outline: 2px solid v.$color-fondo;
-            outline-offset: 2px;
-        }
+        &:focus-visible {
+        background-color: v.$color-principal;
+        color: v.$color-fondo;
+        outline: 2px solid v.$color-verde-oscuro;
+        outline-offset: 2px;
+    }
 
         &:active {
             background-color: v.$color-verde-oscuro;

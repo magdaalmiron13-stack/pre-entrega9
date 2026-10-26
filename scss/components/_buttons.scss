@@ -9,7 +9,7 @@
         color: v.$color-verde-oscuro;
     }
 
-    &:focus {
+    &:focus-visible {
         outline: 2px solid v.$color-principal;
         outline-offset: 3px;
     }
@@ -29,7 +29,7 @@
         background-color: rgba(v.$color-principal, 0.25);
     }
 
-    &:focus {
+    &:focus-visible {
         outline: 2px solid v.$color-principal;
         outline-offset: 2px;
     }

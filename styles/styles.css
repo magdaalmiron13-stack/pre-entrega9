@@ -61,10 +61,11 @@
 .navbar-recetario .navbar-toggler:hover {
   background-color: #C5CDBD;
 }
-.navbar-recetario .navbar-toggler:focus {
-  outline: 2px solid #5A4842;
-  outline-offset: 3px;
-  box-shadow: none;
+.navbar-recetario .navbar-toggler:focus-visible {
+  background-color: #5A4842;
+  color: #F8F3EA;
+  outline: 2px solid #354A32;
+  outline-offset: 2px;
 }
 .navbar-recetario .navbar-toggler:active {
   background-color: #A8B5A0;
@@ -82,10 +83,10 @@
   background-color: #5A4842;
   color: #F8F3EA;
 }
-.navbar-recetario .nav-link:focus {
+.navbar-recetario .nav-link:focus-visible {
   background-color: #5A4842;
   color: #F8F3EA;
-  outline: 2px solid #F8F3EA;
+  outline: 2px solid #354A32;
   outline-offset: 2px;
 }
 .navbar-recetario .nav-link:active {
@@ -238,7 +239,7 @@
   width: 100px;
   height: auto;
   flex-shrink: 0;
-  animation-duration: 1.8s;
+  animation-duration: 3s;
 }
 
 .foto-receta {
@@ -262,7 +263,7 @@
 .enlace-receta:hover {
   color: #354A32;
 }
-.enlace-receta:focus {
+.enlace-receta:focus-visible {
   outline: 2px solid #5A4842;
   outline-offset: 3px;
 }
@@ -278,8 +279,8 @@
 .carousel-control-next:hover {
   background-color: rgba(90, 72, 66, 0.25);
 }
-.carousel-control-prev:focus,
-.carousel-control-next:focus {
+.carousel-control-prev:focus-visible,
+.carousel-control-next:focus-visible {
   outline: 2px solid #5A4842;
   outline-offset: 2px;
 }
